@@ -21,7 +21,7 @@ const Header = () => {
       <div className="header p-[1rem]">
         <div className="container flex justify-between items-center">
           <div className="col1 w-[20%]">
-            <Link to={'/'}><img src="/logo1.png" alt="Logo"/></Link>
+            <Link to={'/'}><img src="/logo1.png" alt="Logo" width={'190px'}/></Link>
           </div>
           <div className="col2 w-[40%]">
             <Search />
