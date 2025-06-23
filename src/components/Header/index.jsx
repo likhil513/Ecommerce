@@ -26,7 +26,9 @@ const Header = () => {
           <div className="col2 w-[40%]">
             <Search />
           </div>
-          <div className="col3 w-[30%]"></div>
+          <div className="col3 w-[30%]">
+            
+          </div>
         </div>
       </div>
     </header>
