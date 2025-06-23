@@ -27,7 +27,11 @@ const Header = () => {
             <Search />
           </div>
           <div className="col3 w-[30%]">
-            
+            <div className='flex justify-end items-center gap-6'>
+              <Link to='/wishlist' className='text-[16px] text-brand-dark hover:text-brand-blue transistion'>Wishlist</Link>
+              <Link to='/cart' className='text-[16px] text-brand-dark hover:text-brand-blue transistion'>Cart</Link>
+              <Link to='/login' className='text-[16px] text-brand-dark hover:text-brand-blue transistion'>Login</Link>
+            </div>
           </div>
         </div>
       </div>
