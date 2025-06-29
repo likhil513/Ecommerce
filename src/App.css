@@ -11,6 +11,10 @@ body{
 }
 
 .container{
-    width: 95%;
+    width: 90%;
     margin: auto;
+}
+
+.MuiBadge-badge{
+    background-color: #3b82f6 !important;
 }
